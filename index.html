@@ -14,12 +14,12 @@
     <div id="app">
         <div class="container">
             <header class="main">
-                <h1>{{message}} : {{office}}</h1>
+                <h1>{{message}} <br /> {{office}}</h1>
             </header>
         
             <nav class="toolbar">
-                <button v-on:click="generate_ny">NY Office</button>
-                <button v-on:click="generate_dub">Dublin Office</button>
+                <button class="button" v-on:click="generate_ny">NY Office</button>
+                <button class="button" v-on:click="generate_dub">Dublin Office</button>
             </nav>
             
             <section class="content">
